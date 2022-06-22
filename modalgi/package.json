@@ -1,6 +1,14 @@
 {
   "name": "modalgi",
-  "version": "0.3.0",
+  "version": "1.3.0",
+  "description": "simple modal component",
+  "keywords": [
+    "react",
+    "modal",
+    "simple",
+    "component"
+  ],
+  "author": "Gillian Brousse",
   "private": false,
   "main": "dist/index.js",
   "module": "dist/index.js",

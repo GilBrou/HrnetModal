@@ -1,3 +1,5 @@
+Simple modal
+
 ## Installation
 
 To install, you can use npm or yarn:
