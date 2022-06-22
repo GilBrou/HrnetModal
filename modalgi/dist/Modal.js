@@ -26,15 +26,17 @@ const Modal = _ref => {
     onClose,
     style
   } = _ref;
+
+  /*Close modal with escape key*/
   (0, _react.useEffect)(() => {
     function handleEscapeKey(e) {
-      if (e.code === 'Escape') {
+      if (e.code === "Escape") {
         onClose();
       }
     }
 
-    document.addEventListener('keydown', handleEscapeKey);
-    return () => document.removeEventListener('keydown', handleEscapeKey);
+    document.addEventListener("keydown", handleEscapeKey);
+    return () => document.removeEventListener("keydown", handleEscapeKey);
   }, []);
   return isOpened && /*#__PURE__*/_react.default.createElement("div", {
     className: "modal",
